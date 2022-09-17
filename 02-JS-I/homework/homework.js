@@ -247,16 +247,12 @@ function esVocal(letra){
     let letraEnMinuscula = letra.toLowerCase();
     const vocales = ["a","e","i","o","u"];
     if (vocales.indexOf(letraEnMinuscula) == -1){
-      console.log("Dato incorrecto")
+      console.log("Dato incorrecto");
     }
     else {
-      "Es vocal"
+      console.log("Es vocal");
     }
   }
-}
-esVocal(f)
-
-
 
 // No modificar nada debajo de esta línea
 // --------------------------------
