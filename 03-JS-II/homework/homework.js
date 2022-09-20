@@ -5,9 +5,10 @@ function obtenerMayor(x, y) {
   // Devuelve el número más grande
   // Si son iguales, devuelve cualquiera de los dos
   // Tu código:
-  if (x < y) {
+
+  if (y > x) {
     return y;
-  } else if (y < x){
+  } else if (x > y){
     return x;
   }
   else{
@@ -224,9 +225,7 @@ function doWhile(numero) {
     numero = numero + 5;
     i = i+1;
   }
-  while {
-    i <= 8 ;
-  }
+  while (i <= 8 );
 }
 
 
